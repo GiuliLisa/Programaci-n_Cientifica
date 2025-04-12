@@ -37,9 +37,9 @@ apellido = "Reinaldo"
 print(apellido)
 
 #11
-#ya está
+#ya está (en la 9 puse el + 5 despues del # porque sino no va a funcionar lo demás, pero en conclusión no se puede concatenar un string con un numero, y en la 8 si funciona porque estas sumando numeros)
 
-#12 ya está
+#12 (ya estaria porque ya hice esos puntos en este archivo py)
 
 #13
 nombre = input("ingresa tu nombre por favor: ")   #la funcion input permite ingresar datos
