@@ -1,3 +1,7 @@
+#Reinaldo Giulianna
+#2025
+#Programación Científica
+
 #1
 print("hola mundo")
 
