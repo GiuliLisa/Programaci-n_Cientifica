@@ -1,3 +1,7 @@
+#Reinaldo Giulianna
+#2025
+#Programación Científica
+
 #11 Aplicar la operación de suma a las variables declaradas en los puntos 8 y 9 y ver qué ocurre. 
 
 #(punto 8 aplicando suma)
