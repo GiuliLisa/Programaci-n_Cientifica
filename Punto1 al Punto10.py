@@ -45,17 +45,3 @@ print(nombre)
 #10 Depositar tu apellido en una variable llamada apellido y mostrarla por pantalla.
 apellido = "Reinaldo"
 print(apellido)
-
-#13  Escribí un programa que solicite al usuario que ingrese su nombre por consola. El nombre se debe almacenar en una variable llamada nombre. 
-nombre = input("ingresa tu nombre por favor: ")   #Nota para mí: la funcion input permite ingresar datos
-print("hola", nombre)
-
-#14  Escribir un programa que pregunte al usuario por el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
-horas = int(input("Ingrese el número de horas trabajadas: "))
-coste = float(input("Ingrese el coste por hora: "))
-cobro = horas * coste
-print(cobro)
-
-#Nota para mí: cuando se trata de numeros, hay que convertir el texto de input, por ende se pone
-#int() o float() antes de input, para que el valor de texto pase a numero.
-#si solo se pone int, el programa lo toma como una variable de texto.
