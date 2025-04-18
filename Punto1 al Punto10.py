@@ -35,8 +35,8 @@ print("Gato")
 #Respuesta: Crea un programa que defina dos números enteros, realiza la suma y la multiplicación entre ellos, y muestra ambos resultados por pantalla con un mensaje descriptivo.
 
 #8 ¿Qué deberías escribir para obtener el valor de 4 elevado a la quinta potencia?. ¿Qué valor muestra?.
-print(2 ** 5)
-#muestra 32
+print(4 ** 5)
+#muestra 1024
 
 #9 Guardar tu nombre en una variable que se llame nombre y luego mostrarla por pantalla.
 nombre = "Giuli"
