@@ -7,7 +7,10 @@
 #"Buenas tardes" si es entre las 12 y 18. 
 #"Buenas noches" si es después de las 18.
 
-hora = int(input("Ingrese la hora actual (formato 24h, solo la hora): "))
+hora_str = input("Ingrese la hora actual (formato 24h, ejemplo: 17:30): ")
+
+hora_partes = hora_str.split(":")
+hora = int(hora_partes[0])
 
 if hora < 12:
     print("Buendos días")
