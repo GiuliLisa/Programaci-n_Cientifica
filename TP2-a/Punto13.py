@@ -3,7 +3,7 @@
 #Programación Científica
 
 #13. Escribir un programa que almacene dos matrices. 
-# Definir las dos matrices de manera directa
+
 matriz1 = [
     [1, 2, 3],
     [4, 5, 6],
@@ -16,7 +16,7 @@ matriz2 = [
     [3, 2, 1]
 ]
 
-# Mostrar las matrices
+
 print("Matriz 1:")
 for fila in matriz1:
     print(fila)

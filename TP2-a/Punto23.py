@@ -4,7 +4,6 @@
 
 #23. Pide al usuario que impute una lista de alumnos, separados con “;”. Después, pregunta por las notas de ellos. Realizar diccionario para después poder preguntar a alguien y observar su nota. 
 
-# Pedir al usuario que ingrese los nombres de los alumnos separados por ";"
 entrada = input("Ingrese los nombres de los alumnos separados por ';': ")
 alumnos = entrada.split(";")
 
