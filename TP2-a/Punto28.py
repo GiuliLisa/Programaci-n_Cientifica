@@ -20,7 +20,8 @@ carreras = {
             "Ana Pérez": 8.5,
             "Lucas Torres": 7.9,
             "María López": 9.2
-        }
+        },
+        "promedio": 8.5
     },
     "Secretariado": {
         "nombre": "Secretariado Administrativo",
@@ -32,7 +33,8 @@ carreras = {
         "alumnos": {
             "Pedro Martínez": 7.0,
             "Valentina Fernández": 8.1
-        }
+        },
+        "promedio": 8
     },
     "Administración": {
         "nombre": "Técnico Superior en Administración de Empresas",
@@ -45,7 +47,8 @@ carreras = {
             "Julieta Gómez": 8.3,
             "Tomás Vidal": 7.5,
             "Brenda Salas": 9.0
-        }
+        },
+        "promedio": 7.5
     },
     "Profesor/a de Informática": {
         "nombre": "Profesorado de Educación Secundaria en Informática",
@@ -58,7 +61,8 @@ carreras = {
             "Marina Gómez": 8.3,
             "Jorge Lopez": 7.5,
             "Marianela Salasi": 9.0
-        }
+        },
+        "promedio": 8
     },
     "Traductor de Portugués": {
         "nombre": "Traductor de Portugués",
@@ -71,7 +75,8 @@ carreras = {
             "Pepe Ramirez": 8.3,
             "Teo Vivid": 7.5,
             "George Lucas": 9.0
-        }
+        },
+        "promedio": 7.5
     }
 }
 
@@ -85,3 +90,4 @@ for carrera, datos in carreras.items():
     print("Alumnos y sus promedios:")
     for alumno, promedio in datos["alumnos"].items():
         print(f" - {alumno}: {promedio}")
+    print(f"Evaluación Promedio: {datos['promedio']}")
