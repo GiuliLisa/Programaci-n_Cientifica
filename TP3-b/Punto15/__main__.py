@@ -1,3 +1,9 @@
+#Reinaldo Giulianna
+#2025
+#Programación Científica
+
+#15. Modificar el tamaño de la ventana y colocar un color al botón del código de ejemplo. 
+
 import sys
 from logica.organizador_materias import Organizador_Materias
 from gui.visor_materias import Aplicacion_Gui

@@ -1,6 +1,14 @@
+#Reinaldo Giulianna
+#2025
+#Programación Científica
+
+#17. Se necesita tener una agenda simple sin base de datos, es decir en un 
+#archivo .txt que permita guardar nombre y contacto de los proveedores de una
+#empresa. Crear una interfaz gráfica que permita automatizar y facilitar esta tarea. 
+
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QMessageBox
-from ventana_ui import Ui_Dialog  # Asegurate de que el nombre coincida con tu clase
+from ventana_ui import Ui_Dialog
 
 class Agenda(QWidget):
     def __init__(self):
@@ -11,12 +19,12 @@ class Agenda(QWidget):
         self.proveedores = []
         self.indice_actual = 0
 
-        # Conectar botones
+        #Conectar botones
         self.ui.btnGuardar.clicked.connect(self.guardar_proveedor)
         self.ui.btnSiguiente.clicked.connect(self.mostrar_siguiente)
         self.ui.btnAnterior.clicked.connect(self.mostrar_anterior)
 
-        # Cargar los proveedores del archivo
+        #Cargar los proveedores del archivo
         self.cargar_proveedores()
 
     def cargar_proveedores(self):
@@ -71,6 +79,3 @@ if __name__ == "__main__":
     ventana = Agenda()
     ventana.show()
     sys.exit(app.exec_())
-
-
-

@@ -1,3 +1,9 @@
+#Reinaldo Giulianna
+#2025
+#Programación Científica
+
+#19. Crear el generador de contraseñas. 
+
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QMessageBox
 from password import Ui_Dialog

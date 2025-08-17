@@ -4,6 +4,7 @@
 
 #9. Simular los ejemplos de la documentación tkinter. 
 
+#Solo encontré este ejemplo en la documentación:
 import tkinter as tk
 
 ventana = tk.Tk()
@@ -18,7 +19,7 @@ tk.Button(frm, text="Quit", command=ventana.destroy).grid(column=1, row=0)
 
 ventana.mainloop()
 
-#con ttk:
+#Forma con ttk:
 # import tkinter as tk
 # from tkinter import ttk
 

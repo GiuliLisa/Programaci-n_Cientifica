@@ -1,6 +1,12 @@
+#Reinaldo Giulianna
+#2025
+#Programación Científica
+
+#16. Utilizando el framework de Qt designer implementará un botón para imprimir en pantalla “Hola soy <nombre>”. 
+
 import sys
 from PyQt5.QtWidgets import QApplication, QDialog, QMessageBox
-from ventana_ui import Ui_Dialog  # Importamos la clase generada por pyuic5
+from ventana_ui import Ui_Dialog  #Se importa la clase generada por pyuic5
 
 class MiDialogo(QDialog):
     def __init__(self):
@@ -8,7 +14,7 @@ class MiDialogo(QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
 
-        # Conectamos el botón a la función que muestra el mensaje
+        #Se conecta el botón a la función que muestra el mensaje
         self.ui.btnSaludar.clicked.connect(self.saludar)
 
     def saludar(self):
