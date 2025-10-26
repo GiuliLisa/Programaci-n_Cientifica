@@ -1,3 +1,7 @@
+#Reinaldo Giulianna
+#2025
+#Programación Científica
+
 import sqlite3 # Importo la librería sqlite3, que ya viene incluida en Python.
 
 # Creo una consulta SQL para crear una tabla con sus columnas (a la base de datos "biblioteca")
